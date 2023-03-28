@@ -1,0 +1,686 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a
+{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+
+#hero
+{
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 20px;
+  background-image: url(../assets/Artboard\ 12.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#hero h1{
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 900;
+  font-size: 90px;
+  color: white;
+}
+
+#hero p
+{
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+header
+{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo
+{
+  width: 25%;
+  height: 60px;
+  background-image: url(../assets/Discord-logo-removebg-preview.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav
+{
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav a:hover
+{
+  border-bottom: 4px solid #66BCFF;
+}
+
+.log
+{
+  width: 25%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btn
+{ 
+  width: 20%;
+  padding: 3%;
+  background-color: white;
+  font-size: 80%;
+  text-align: center;
+  border-radius: 50px;
+  border: 0;
+  color: black;
+  transition: ease-in 0.1s;
+}
+
+.btn a
+{
+  color: black;
+}
+
+.btn:hover
+{
+  color: #404EED;
+}
+
+.btn a:hover
+{
+  color: #404EED;
+}
+
+#tog
+{
+  font-size: 24px;
+  border: 0px;
+  background-color: transparent;
+  color: transparent;
+}
+
+#side
+{
+  width: 60%;
+  height: 100vh;
+  overflow-y: hidden;
+  display: none;
+  background-color: #404EED;
+}
+
+#side a
+{
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #5865F2;
+}
+
+.button
+{
+  width: 50%;
+  margin-top: 20px;
+  color: black;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.bttt
+{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button button
+{
+  width: 45%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 30px;
+  border: 0;
+  border-radius: 60px;
+  transition: ease-in 0.1s;
+}
+
+.button #bttn
+{
+  background-color: #0e0f10;
+  transition: ease-in 0.1s;
+  color: white;
+}
+
+button:hover
+{
+  color: #5865F2;
+}
+
+#bttn:hover
+{
+  backgorund-color: #333335;
+}
+
+.feature
+{
+  width: 100%;
+  height: fit-content;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 12fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 50px;
+
+}
+
+.feat
+{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.few
+{
+  width: 60%;
+  height: 200px;
+  padding: 30px;
+}
+
+.feature .few h1
+{
+  font-family: 'Londrina Solid', cursive;
+  font-size: 40px;
+  font-weight: 800;
+  color: #23272A;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: -30px;
+}
+
+.few h3
+{
+  font-family: 'gg sans', sans-serif;
+  font-family: 'gg sans Normal', sans-serif;
+  font-family: 'gg sans Medium', sans-serif;
+  font-family: 'gg sans SemiBold', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #23272A;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: -60px;
+}
+
+
+
+.feat
+{
+  height: 500px;
+  text-align: center;
+  padding: 20x;
+}
+
+.feat#bo
+{
+  background-image: url(../assets/asset\ 3.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.feat#bot
+{
+  background-image: url(../assets/asset\ 4.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.feat#fan
+{
+  background-image: url(../assets/asset\ 5.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sec
+{
+  font-family: 'gg sans', sans-serif;
+  font-family: 'gg sans Normal', sans-serif;
+  font-family: 'gg sans Medium', sans-serif;
+  font-family: 'gg sans SemiBold', sans-serif;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.tet
+{
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.img
+{
+  height: 700px;
+  width: 100%;
+  background-image: url(../assets/asset\ 6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.tet h1
+{
+
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 700;
+  padding-top: 40px;
+  font-size: 64px;
+  color: #23272A;
+}
+
+.tet h2
+{
+
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 600;
+  font-size: 40px;
+  color: #23272A;
+}
+
+.tet button
+{
+  width: 20%;
+  padding: 20px;
+  background-color: #404EED;
+  color: white;
+  border: 0;
+  border-radius: 60px;
+}
+
+footer
+{
+  width: 100%;
+  height: 300px;
+  background-color: #23272A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fot
+{
+  width: 30%;
+  height: fit-content;
+  color: #5865F2;
+  padding-left: 30px;
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.fott
+{
+  width: 30%;
+  height: 100px;
+  padding-right: 30px;
+  background-image: url(../assets/Discord-logo-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* query */
+
+@media (max-width: 899px) {
+
+  #hero{
+    text-align: left;
+  }
+
+  #hero h1{
+    font-size: 64px;
+    margin-left: 30px;
+  }
+
+  #hero p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    margin-left: 20px;
+  }
+
+  .log{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .btn{
+    font-size: 10px;
+  }
+
+  #tog
+  {
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .button
+{
+  width: 90%;
+  margin-top: 20px;
+  color: black;
+  height: auto;
+  display: block;
+}
+
+.button button
+{
+  width: 70%;
+  height: 30px;
+  background-color: white;
+  text-align: leftj;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 25px;
+  border: 0;
+  border-radius: 60px;
+  transition: ease-in 0.1s;
+}
+
+#bttn
+{
+  width: 80%;
+  padding: 25px;
+}
+
+.bttt
+{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.feature
+{
+  width: 100%;
+  height: fit-content;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat (6, 1fr);
+  gap: 30px;
+
+}
+
+.feat
+{
+  height: 300px;
+  text-align: center;
+  padding: 20x;
+}
+
+.feature .few h1
+{
+  font-family: 'Londrina Solid', cursive;
+  font-size: 25px;
+  font-weight: 800;
+  color: #23272A;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: -30px;
+}
+
+.few h3
+{
+  font-family: 'gg sans', sans-serif;
+  font-family: 'gg sans Normal', sans-serif;
+  font-family: 'gg sans Medium', sans-serif;
+  font-family: 'gg sans SemiBold', sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  color: #23272A;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: -60px;
+}
+
+.sec
+{
+  font-family: 'gg sans', sans-serif;
+  font-family: 'gg sans Normal', sans-serif;
+  font-family: 'gg sans Medium', sans-serif;
+  font-family: 'gg sans SemiBold', sans-serif;
+  width: 100%;
+  height: 900px;
+  text-align: center;
+  background-color: #F6F6F6;
+}
+
+.tet
+{
+  height: 150px;
+  width: 100%;
+  display: block;
+  padding-bottom: 30px;
+}
+
+.img
+{
+  height: 600px;
+  width: 90%;
+  padding-left: 40px;
+  background-image: url(../assets/asset\ 6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.tet h1
+{
+
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 40px;
+  color: #23272A;
+}
+
+.tet p 
+{
+  font-size: 7px;
+  text-align: center;
+}
+
+.tet h2
+{
+
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 600;
+  font-size: 25px;
+  color: #23272A;
+}
+
+.tet button
+{
+  width: 60%;
+  padding: 20px;
+  background-color: #404EED;
+  color: white;
+  border: 0;
+  border-radius: 60px;
+}
+
+footer
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fot
+{
+  width: 30%;
+  height: fit-content;
+  color: #5865F2;
+  padding-left: 30px;
+  font-family: 'Londrina Solid', cursive;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.fott
+{
+  width: 20%;
+  height: 70px;
+  padding-right: 30px;
+  background-image: url(../assets/Discord-logo-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+}
+
+@media (min-width: 900pz) {
+  
+  #hero{
+    text-align: left;
+    height: fit-content;
+  }
+
+  #hero h1{
+    font-size: 40px;
+    margin-left: 30px;
+  }
+
+  #hero p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .nav{
+    display: none;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo{
+    margin-left: 20px;
+  }
+
+  .log{
+    width: 35%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .btn{
+    font-size: 10px;
+  }
+
+  #tog
+  {
+    font-size: 24px;
+    background-color: transparent;
+    color: white;
+  }
+
+  .button
+{
+  width: 100%;
+  margin-top: 20px;
+  color: black;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button button
+{
+  width: 50%;
+  height: 30px;
+  background-color: white;
+  text-align: leftj;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 25px;
+  border: 0;
+  border-radius: 60px;
+  transition: ease-in 0.1s;
+}
+
+#bttn
+{
+  width: 50%;
+  padding: 25px;
+}
+
+.bttt
+{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+}
